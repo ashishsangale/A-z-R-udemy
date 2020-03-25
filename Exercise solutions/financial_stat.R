@@ -51,13 +51,18 @@ profit.1000 <- round(profit/1000)
 profit.after.tax.1000 <- round(profit.after.tax/1000)
 
 #output
-revenue.1000
-expenses.1000
-profit.1000
-profit.after.tax.1000
-profit.margin
-g.month
-b.month
-best.month
-worst.month
+
+
+A <- rbind(revenue.1000,
+            expenses.1000,
+            profit.1000,
+            profit.after.tax.1000,
+            profit.margin,
+            g.month,
+            b.month,
+            best.month,
+            worst.month)
+
+A
+
 
